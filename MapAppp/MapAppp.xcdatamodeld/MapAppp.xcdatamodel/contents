@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21G320" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LocationModel" representedClassName="LocationModel" syncable="YES" codeGenerationType="class">
+        <attribute name="descriptionLocation" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="Transformable"/>
+        <attribute name="longitude" optional="YES" attributeType="Transformable"/>
+        <attribute name="nameLocation" optional="YES" attributeType="String"/>
+    </entity>
+</model>
