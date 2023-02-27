@@ -60,17 +60,41 @@
 		5897DDFB29A4FA540098CE54 /* MapAppp */ = {
 			isa = PBXGroup;
 			children = (
-				5897DDFC29A4FA540098CE54 /* AppDelegate.swift */,
-				5897DDFE29A4FA540098CE54 /* SceneDelegate.swift */,
-				5897DE0029A4FA540098CE54 /* ViewController.swift */,
+				58C601E429AC77A600FE6A1A /* Controller */,
+				58C601E329AC778600FE6A1A /* SupportingFiles */,
+				58C601E229AC777600FE6A1A /* Delegate */,
+				58C1F95729A61BA900980755 /* LocationModel.swift */,
 				5897DE1329A4FAEF0098CE54 /* TableViewCell.swift */,
-				5897DE0829A4FA550098CE54 /* Assets.xcassets */,
-				5897DE0A29A4FA550098CE54 /* LaunchScreen.storyboard */,
 				5897DE0D29A4FA550098CE54 /* Info.plist */,
 				5897DE0529A4FA540098CE54 /* MapAppp.xcdatamodeld */,
-				58C1F95729A61BA900980755 /* LocationModel.swift */,
 			);
 			path = MapAppp;
+			sourceTree = "<group>";
+		};
+		58C601E229AC777600FE6A1A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				5897DDFE29A4FA540098CE54 /* SceneDelegate.swift */,
+				5897DDFC29A4FA540098CE54 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		58C601E329AC778600FE6A1A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5897DE0829A4FA550098CE54 /* Assets.xcassets */,
+				5897DE0A29A4FA550098CE54 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		58C601E429AC77A600FE6A1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5897DE0029A4FA540098CE54 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

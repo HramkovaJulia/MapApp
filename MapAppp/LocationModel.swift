@@ -7,11 +7,12 @@
 
 import Foundation
 import MapKit
+import CoreData
 
 struct Location {
     
-    var nameLocation: String
-    var descriptionLocation: String
-    var latitude: CLLocation
-    var longitude: CLLocation
+    var nameLocation: String?
+    var descriptionLocation: String?
+    var latitude: Double?
+    var longitude: Double?
 }

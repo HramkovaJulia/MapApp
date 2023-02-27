@@ -2,8 +2,8 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21G320" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="LocationModel" representedClassName="LocationModel" syncable="YES" codeGenerationType="class">
         <attribute name="descriptionLocation" optional="YES" attributeType="String"/>
-        <attribute name="latitude" optional="YES" attributeType="Transformable"/>
-        <attribute name="longitude" optional="YES" attributeType="Transformable"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="nameLocation" optional="YES" attributeType="String"/>
     </entity>
 </model>
